@@ -13,11 +13,11 @@ const Main = () => {
     // Object data using in h2 tage and h2 id is "objData"
     let {name,age,city} =obj; // object destructuring
 
-    const a=10
+    const projectNo =10
   return (
     <>
 
-    <h1>HEADING  "{a}"</h1>
+    <h1> Project "{projectNo}"</h1>
     <h2 id='objData' >My NAME IS {name} and i am {age} years old. I from {city}</h2>
     {/* this data from obj  */}
 
