@@ -9,7 +9,7 @@ import Raja, {Main1,Main2 as MAIN} from './components/Main'
 // COde ka defult formet create krne ke liye " rafce " type kr ke Enter press kre jiske liye ES6 name se ak Extension Install krna hoga
 
 const Head = ()=>{<h1>Heading</h1>}
-function App(props) {
+function App() {
   // Ya pr pure JAVASCRIPT likhi ja sakti hai EX:
   const Name = "Satyapal Bishnoi";
 
@@ -23,8 +23,8 @@ function App(props) {
 
 
     <h1>Welcome in my web tech</h1>
-    <MAIN/>
-    <Main1 data="phone is 0987654321" />
+    <MAIN item="photo" size="1280x900px" price={199} id="Ab12Cd"/>
+    <Main1 data="phone is 0987654321"  />
     <h2>My name is {Name}</h2>
      
     {/* Variable ya JS ki other property ko use krene ke liye {carli bracket} ka use kiya jata hai */}
